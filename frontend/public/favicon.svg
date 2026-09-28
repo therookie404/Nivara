@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="125 45 250 255">
+  <path d="M 250,55 C 278,92 314,105 352,108 C 356,182 322,238 250,285 C 178,238 144,182 148,108 C 186,105 222,92 250,55 Z" fill="#0f3675" fill-rule="evenodd"/>
+  <path d="M 250,80 C 272,110 300,121 330,123 C 333,180 305,223 250,262 C 195,223 167,180 170,123 C 200,121 228,110 250,80 Z" fill="none" stroke="#0f3675" stroke-width="16" stroke-linejoin="round"/>
+  <polyline points="140,240 200,165 245,200 309.4,105.2" stroke="#2176e8" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <polygon points="332.9,70.4 329.8,114.2 293.4,89.5" fill="#2176e8" stroke="#2176e8" stroke-width="8" stroke-linejoin="round"/>
+</svg>

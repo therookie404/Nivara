@@ -1,0 +1,430 @@
+{
+ "personas": [
+  {
+   "id": "demo_stable",
+   "name": "Meera",
+   "city": "Pune",
+   "type": "salaried",
+   "storyline": "Steady salary, disciplined spending, healthy savings buffer. The calm baseline.",
+   "params": {
+    "persona": "salaried",
+    "base_income": 80000,
+    "income_trend": 0.005,
+    "income_vol": 0.05,
+    "fixed_exp": 20000,
+    "var_exp": 18000,
+    "expense_drift": 0.005,
+    "emi": 10000,
+    "shock_prob": 0.03,
+    "shock_scale": 0.5,
+    "starting_savings": 200000.0
+   },
+   "months": [
+    {
+     "month": 1,
+     "income": 75369.8,
+     "expenses": 38417.25,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 226952.55,
+     "late_payment": 0
+    },
+    {
+     "month": 2,
+     "income": 82586.77,
+     "expenses": 36798.69,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 262740.64,
+     "late_payment": 0
+    },
+    {
+     "month": 3,
+     "income": 83635.95,
+     "expenses": 39406.29,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 296970.3,
+     "late_payment": 0
+    },
+    {
+     "month": 4,
+     "income": 85689.99,
+     "expenses": 41851.43,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 330808.87,
+     "late_payment": 0
+    },
+    {
+     "month": 5,
+     "income": 81804.69,
+     "expenses": 41342.72,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 361270.84,
+     "late_payment": 0
+    },
+    {
+     "month": 6,
+     "income": 83355.28,
+     "expenses": 37942.16,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 396683.96,
+     "late_payment": 0
+    },
+    {
+     "month": 7,
+     "income": 84386.9,
+     "expenses": 36289.09,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 434781.78,
+     "late_payment": 0
+    },
+    {
+     "month": 8,
+     "income": 77020.73,
+     "expenses": 39005.52,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 462796.99,
+     "late_payment": 0
+    },
+    {
+     "month": 9,
+     "income": 89563.69,
+     "expenses": 38642.94,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 503717.73,
+     "late_payment": 0
+    },
+    {
+     "month": 10,
+     "income": 81973.25,
+     "expenses": 40153.37,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 535537.6,
+     "late_payment": 0
+    },
+    {
+     "month": 11,
+     "income": 84139.64,
+     "expenses": 38237.18,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 571440.06,
+     "late_payment": 0
+    },
+    {
+     "month": 12,
+     "income": 86133.83,
+     "expenses": 40504.84,
+     "emi": 10000,
+     "shock": 0.0,
+     "balance": 607069.05,
+     "late_payment": 0
+    }
+   ],
+   "features_6mo": {
+    "avg_income": 82073.75,
+    "income_volatility": 0.0393,
+    "income_trend": 0.0138,
+    "expense_drift": 0.0568,
+    "debt_service_ratio": 0.1218,
+    "runway_months": 8.05,
+    "savings_rate": 0.3994,
+    "late_payments": 0,
+    "neg_flow_months": 0
+   },
+   "shortfall_in_future": false
+  },
+  {
+   "id": "demo_drifting",
+   "name": "Arjun",
+   "city": "Mumbai",
+   "type": "freelancer",
+   "storyline": "Gig income wobbling while expenses creep up. Runway thinning \u2014 watch it.",
+   "params": {
+    "persona": "freelancer",
+    "base_income": 70000,
+    "income_trend": -0.01,
+    "income_vol": 0.18,
+    "fixed_exp": 22000,
+    "var_exp": 24000,
+    "expense_drift": 0.025,
+    "emi": 12000,
+    "shock_prob": 0.08,
+    "shock_scale": 0.5,
+    "starting_savings": 75000.0
+   },
+   "months": [
+    {
+     "month": 1,
+     "income": 60044.08,
+     "expenses": 42093.52,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 80950.56,
+     "late_payment": 0
+    },
+    {
+     "month": 2,
+     "income": 78584.33,
+     "expenses": 46540.54,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 100994.35,
+     "late_payment": 0
+    },
+    {
+     "month": 3,
+     "income": 89729.1,
+     "expenses": 50468.59,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 128254.87,
+     "late_payment": 0
+    },
+    {
+     "month": 4,
+     "income": 76329.19,
+     "expenses": 47751.43,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 144832.63,
+     "late_payment": 0
+    },
+    {
+     "month": 5,
+     "income": 47289.53,
+     "expenses": 50071.58,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 130050.58,
+     "late_payment": 0
+    },
+    {
+     "month": 6,
+     "income": 65247.17,
+     "expenses": 55614.86,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 127682.89,
+     "late_payment": 1
+    },
+    {
+     "month": 7,
+     "income": 64823.47,
+     "expenses": 55247.25,
+     "emi": 12000,
+     "shock": 35000.0,
+     "balance": 90259.11,
+     "late_payment": 1
+    },
+    {
+     "month": 8,
+     "income": 48694.64,
+     "expenses": 55823.0,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 71130.74,
+     "late_payment": 0
+    },
+    {
+     "month": 9,
+     "income": 81904.73,
+     "expenses": 57657.36,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 83378.11,
+     "late_payment": 0
+    },
+    {
+     "month": 10,
+     "income": 47424.37,
+     "expenses": 54814.95,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 63987.54,
+     "late_payment": 1
+    },
+    {
+     "month": 11,
+     "income": 78229.21,
+     "expenses": 59483.23,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 70733.52,
+     "late_payment": 0
+    },
+    {
+     "month": 12,
+     "income": 71140.36,
+     "expenses": 61213.14,
+     "emi": 12000,
+     "shock": 0.0,
+     "balance": 68660.73,
+     "late_payment": 1
+    }
+   ],
+   "features_6mo": {
+    "avg_income": 69537.23,
+    "income_volatility": 0.1982,
+    "income_trend": -0.0334,
+    "expense_drift": 0.1031,
+    "debt_service_ratio": 0.1726,
+    "runway_months": 2.1,
+    "savings_rate": 0.1263,
+    "late_payments": 1,
+    "neg_flow_months": 2
+   },
+   "shortfall_in_future": false
+  },
+  {
+   "id": "demo_critical",
+   "name": "Rahul",
+   "city": "Bengaluru",
+   "type": "salaried",
+   "storyline": "Stable salary but lifestyle creep (+4%/month expenses) and a big EMI. Storm incoming.",
+   "params": {
+    "persona": "salaried",
+    "base_income": 90000,
+    "income_trend": 0.002,
+    "income_vol": 0.05,
+    "fixed_exp": 28000,
+    "var_exp": 26000,
+    "expense_drift": 0.05,
+    "emi": 32000,
+    "shock_prob": 0.05,
+    "shock_scale": 0.5,
+    "starting_savings": 86000.0
+   },
+   "months": [
+    {
+     "month": 1,
+     "income": 92815.78,
+     "expenses": 58501.8,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 88313.99,
+     "late_payment": 0
+    },
+    {
+     "month": 2,
+     "income": 85309.23,
+     "expenses": 55403.41,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 86219.8,
+     "late_payment": 0
+    },
+    {
+     "month": 3,
+     "income": 95748.04,
+     "expenses": 55081.07,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 94886.77,
+     "late_payment": 0
+    },
+    {
+     "month": 4,
+     "income": 99074.5,
+     "expenses": 59024.69,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 102936.58,
+     "late_payment": 0
+    },
+    {
+     "month": 5,
+     "income": 87984.09,
+     "expenses": 64704.43,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 94216.24,
+     "late_payment": 0
+    },
+    {
+     "month": 6,
+     "income": 86862.75,
+     "expenses": 70928.86,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 78150.13,
+     "late_payment": 0
+    },
+    {
+     "month": 7,
+     "income": 92726.27,
+     "expenses": 68492.53,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 70383.88,
+     "late_payment": 0
+    },
+    {
+     "month": 8,
+     "income": 94399.87,
+     "expenses": 76034.22,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 56749.53,
+     "late_payment": 0
+    },
+    {
+     "month": 9,
+     "income": 82203.36,
+     "expenses": 82476.29,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": 24476.6,
+     "late_payment": 0
+    },
+    {
+     "month": 10,
+     "income": 92783.84,
+     "expenses": 85662.46,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": -402.02,
+     "late_payment": 0
+    },
+    {
+     "month": 11,
+     "income": 93251.24,
+     "expenses": 88165.11,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": -27315.88,
+     "late_payment": 0
+    },
+    {
+     "month": 12,
+     "income": 94398.91,
+     "expenses": 89764.98,
+     "emi": 32000,
+     "shock": 0.0,
+     "balance": -54681.95,
+     "late_payment": 1
+    }
+   ],
+   "features_6mo": {
+    "avg_income": 91299.07,
+    "income_volatility": 0.0546,
+    "income_trend": -0.0058,
+    "expense_drift": 0.1519,
+    "debt_service_ratio": 0.3505,
+    "runway_months": 0.84,
+    "savings_rate": -0.0143,
+    "late_payments": 0,
+    "neg_flow_months": 3
+   },
+   "shortfall_in_future": true
+  }
+ ]
+}

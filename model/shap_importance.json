@@ -1,0 +1,38 @@
+[
+  {
+    "feature": "runway_months",
+    "mean_abs_shap": 3.4622
+  },
+  {
+    "feature": "savings_rate",
+    "mean_abs_shap": 1.0651
+  },
+  {
+    "feature": "avg_income",
+    "mean_abs_shap": 0.4305
+  },
+  {
+    "feature": "expense_drift",
+    "mean_abs_shap": 0.3738
+  },
+  {
+    "feature": "neg_flow_months",
+    "mean_abs_shap": 0.2935
+  },
+  {
+    "feature": "income_trend",
+    "mean_abs_shap": 0.2359
+  },
+  {
+    "feature": "income_volatility",
+    "mean_abs_shap": 0.2286
+  },
+  {
+    "feature": "debt_service_ratio",
+    "mean_abs_shap": 0.1989
+  },
+  {
+    "feature": "late_payments",
+    "mean_abs_shap": 0.0652
+  }
+]

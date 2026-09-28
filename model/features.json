@@ -1,0 +1,11 @@
+[
+  "avg_income",
+  "income_volatility",
+  "income_trend",
+  "expense_drift",
+  "debt_service_ratio",
+  "runway_months",
+  "savings_rate",
+  "late_payments",
+  "neg_flow_months"
+]
